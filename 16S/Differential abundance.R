@@ -2,7 +2,12 @@
 
 #Non-paired
 
-#Uses ANCOM-BC2; this example runs treated vs controls comparison
+#Uses ANCOM-BC2; this example runs treated vs controls comparison at genus level
+# for species runs change Genus to Species
+
+# Requirements:
+#  - R 4.5.1
+#  - R packages: phyloseq, ANCOMBC, dplyr, tidyr
 
 library(phyloseq)
 library(ANCOMBC)
@@ -19,14 +24,13 @@ set.seed(7)
 
 ps <- treated_ps1
 
-# Number of taxa
-n_taxa <- ntaxa(ps)
+# ── 2)  Genus glom ────────────────────────────
+# Genus tax_glom
+ps <- tax_glom(ps, taxrank = "Genus")
 
-# Create ASV IDs
-new_ids <- paste0("ASV", seq_len(n_taxa))
+tax <- as.data.frame(tax_table(ps))
+taxa_names(ps) <- as.character(tax_table(ps)[, "Genus"])
 
-# Assign as taxa names
-taxa_names(ps) <- new_ids
 
 #Set factor level
 sd <- sample_data(ps)
