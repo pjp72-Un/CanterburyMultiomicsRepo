@@ -5,10 +5,6 @@
 #Uses ANCOM-BC2; this example runs untreated vs treated comparison at genus level
 # for species runs change Genus to Species
 
-# Requirements:
-#  - R 4.5.1
-#  - R packages: phyloseq, ANCOMBC, dplyr, tidyr
-
 library(phyloseq)
 library(ANCOMBC)
 library(dplyr)
