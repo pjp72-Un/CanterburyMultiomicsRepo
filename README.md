@@ -4,7 +4,7 @@ This repository contains scripts supporting the multiomics Canterbury, New Zeala
 
 ## About
 
-Publication
+### Publication
 
 In this work we analysed both 16S rRNA sequencing data and targeted and discovery mode metabolomics in children in Canterbury, New Zealand. Analysis involved bacterial diveristy, differential abundance, gas chromatography mass spectrometry (GC-MS), nuclear magnetic resonance (NMR), and machine learning multiomics (MintTea & Glmnet). 
 
