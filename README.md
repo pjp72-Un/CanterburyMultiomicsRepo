@@ -12,8 +12,8 @@ In this work we analysed both 16S rRNA sequencing data and targeted and discover
 
 ### /DADA2
 
-- `Dada2_pipline.R`- script containing the deonising pipeline taking raw reads to the raw phyloseq object.
-- `Phyloseq_processing.R`- script taking the raw phyloseq object and filtering and processing it into group based phyloseq objects for downstream analysis.
+- `Dada2 pipline.R`- script containing the deonising pipeline taking raw reads to the raw phyloseq object.
+- `Phyloseq processing.R`- script taking the raw phyloseq object and filtering and processing it into group based phyloseq objects for downstream analysis.
 
 ### /16S
 
