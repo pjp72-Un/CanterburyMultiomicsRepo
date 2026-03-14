@@ -41,4 +41,10 @@ In this work we analysed both 16S rRNA sequencing data and targeted and discover
 
 ## Requirements & Licenses
 
+The code within this repository is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0) (see the `LICENSE` file).
 
+The scripts rely on several external tools and libraries, each with its own license:
+
+### R
+
+[R version 4.5.1](https://www.r-project.org/) was used for many scripts in this repository. Packages utilised include:
