@@ -1,4 +1,4 @@
-#NMR Linear model analysis
+# NMR LMM + Boxplots + PCA + PERMANOVA
 
 #Runs on replicate level PQN normalised NMR bins that represent non-overalpping bins used to idenitfy metabolites see Supplementary Figure 2
 #ACeD = untreated samples; TCeD = treated samples
@@ -15,7 +15,7 @@ lapply(pkgs, library, character.only = TRUE)
 data_file <- "C:\\PhD\\R code\\nmr\\data_CoeliacStoolCHCH_pqn_selected_bins.tsv"  # replicate-level PQN data
 meta_file <- "C:\\PhD\\NMR\\metablo_meta.txt"                          # replicate-level metadata with Subject
 
-# Your final QC'd, single-metabolite bins (edit if needed)
+# Single-metabolite bins 
 bins_keep <- c(
   "B1_0398","B1_5414","B2_6350","B2_3582","B2_7966",
   "B1_7458","B2_2856","B3_1092","B1_4742","B0_9539","B1_0209",
