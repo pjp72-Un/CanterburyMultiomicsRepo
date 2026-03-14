@@ -32,7 +32,7 @@ In this work we analysed both 16S rRNA sequencing data and targeted and discover
 
 ### /Machine Learning
 
-- `metabolome merge.R`- script that merges, filters, and median imputes log2 transformed metabolites using the GC-MS metabolites for any overlapping metabolites across methods.
+- `Metabolome merge.R`- script that merges, filters, and median imputes log2 transformed metabolites using the GC-MS metabolites for any overlapping metabolites across methods.
 - `16S prevalence filtering`- script that prevalence filters the 16S phyloseq object at both 15% & 30% for use in machine learning methods.
 - `MintTea pipeline.R`- script that both runs a grid search using multiomics data to 1) find the optimial parameters 2) runs the  MintTea analysis pipline using those settings.
 - `MintTea external validation.R`- script that runs external cross validation of the MintTea analysis.
