@@ -1,4 +1,4 @@
-#Prevalence filtering of phyloseq objects for use in downstreat machine learing
+#Prevalence filtering of phyloseq objects for use in downstream machine learing
 
 library(phyloseq)
 
