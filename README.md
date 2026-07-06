@@ -38,7 +38,6 @@ In this work we analysed both 16S rRNA sequencing data and targeted and discover
 - `MintTea external validation.R`- script that runs external cross validation of the MintTea analysis.
 - `Out-of-fold MintTea boostrap.R`- script that applies bootstrapping validation to the external cross validation of the MintTea models.
 - `Aligned blocks generation.R`- script that produces the aligned omics blocks used in the Multinomial elastic net (glmnet) pipeline.
-- `Glmnet pipeline.R`- script that runs the glmnet pipeline on each omic separately, then fuse predicted class probabilities.
 
 ## Requirements & Licenses
 
@@ -63,7 +62,6 @@ The scripts rely on several external tools and libraries, each with its own lice
 - `broom` 1.0.8 [MIT](https://cran.r-project.org/web/packages/broom/index.html)
 - `ANCOMBC` 2.6.0 [Artistic-2.0](https://www.bioconductor.org/packages/release/bioc/html/ANCOMBC.html)
 - `MintTea` 1.0.0 [MIT](https://github.com/efratmuller/MintTea)
-- `glmnet` 4.1.10 [GPL-2](https://cran.r-project.org/web/packages/glmnet/index.html)
 
 ### FastQC
 
